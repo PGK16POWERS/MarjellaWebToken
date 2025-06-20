@@ -1,17 +1,27 @@
 {
   "name": "marjellawebtoken",
   "version": "1.0.0",
+  "private":"true",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "keywords": [],
   "author": "Liberia Mazibuko",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
+  "description": "A custom digital token system using HMAC-SHA384",
   "dependencies": {
     "crypto": "^1.0.1",
     "nodemon": "^3.1.10"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PGK16POWERS/MarjellaWebToken.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PGK16POWERS/MarjellaWebToken/issues"
+  },
+  "homepage": "https://github.com/PGK16POWERS/MarjellaWebToken#readme"
 }
